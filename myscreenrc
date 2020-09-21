@@ -1,0 +1,9 @@
+#!/bin/bash
+screen sh top.sh
+split
+focus down
+screen sh iostat.sh
+split
+focus down
+screen watch df -h
+focus bottom
